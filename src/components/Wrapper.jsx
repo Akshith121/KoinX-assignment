@@ -1,7 +1,7 @@
 
-const Wrapper = ({child}) => {
-    return <div className="bg-white rounde.md shadow-md">
-       <child />
+const Wrapper = ({children}) => {
+    return <div className="bg-white py-6 px-8 rounded-lg my-6">
+       {children}
     </div>
 }
 
