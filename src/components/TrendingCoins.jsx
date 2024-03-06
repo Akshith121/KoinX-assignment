@@ -1,20 +1,10 @@
-import { useState, useEffect } from 'react';
-import axios from 'axios';
 import Coin from './Coin';
 import Wrapper from './Wrapper';
+import { useTrendingCoins } from '../hooks/useTrendingCoins';
 
 const TrendingCoins = () => {
 
-   const [trendingCoins, setTrendingCoins] = useState([]);
-
-   useEffect(() => {
-      async function getTrengingCoins() {
-         const res = await axios.get('https://api.coingecko.com/api/v3/search/trending');
-         const json = res.data;
-         setTrendingCoins(json.coins);
-      }
-      getTrengingCoins();
-   }, []);
+   const trendingCoins = useTrendingCoins();
 
    return <Wrapper>
       <div className='flex flex-col gap-6'>
