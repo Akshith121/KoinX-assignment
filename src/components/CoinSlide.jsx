@@ -21,8 +21,8 @@ const CoinSlide = ({text}) => {
     <p className="text-2xl font-bold">{text}</p>
     <Slider {...settings}>
         {trendingCoins.map((coin, ind) => (
-            (!coin.item.data.price.startsWith("$0.0<sub")) && <CoinDetails thumb={coin.item.thumb} symbol={coin.item.symbol} usd={parseFloat(coin.item.data.price_change_percentage_24h.usd)} price={coin.item.data.price} plot={coin.item.data.sparkline} />
-        ))}
+            (<CoinDetails thumb={coin.item.thumb} symbol={coin.item.symbol} usd={(parseFloat(coin.item.data.price_change_percentage_24h.usd))} price={parseFloat(coin.item.data.price).toFixed(8)} plot={coin.item.data.sparkline} />
+        )))}
     </Slider>
 </div>
 }

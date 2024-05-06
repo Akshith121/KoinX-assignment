@@ -13,7 +13,9 @@ export default {
         'seagreen': '#75eca4',
         'navyblue': '#1262ad',
         'crimson': '#fe9463',
-        'redshade': '#f23e38'
+        'redshade': '#f23e38',
+        'tomato': '#ff4a43',
+        'palegreen': '#1ae964'
       },
       
     },

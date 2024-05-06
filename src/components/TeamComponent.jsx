@@ -8,19 +8,19 @@ const TeamComponent = () => {
         {
             img: John,
             name: "John Smith",
-            designation: "Designation here",
+            designation: "Technical Manager",
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum sed arcu non odio euismod lacinia. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Duis at consectetur lorem donec massa sapien faucibus. Tellus orci ac auctor augue mauris augue neque gravida. Est ullamcorper eget nulla facilisi." 
         },
         {
             img: Elina,
             name: "Elina Williams",
-            designation: "Designation here",
+            designation: "Team Lead (Design)",
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum sed arcu non odio euismod lacinia. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Duis at consectetur lorem donec massa sapien faucibus. Tellus orci ac auctor augue mauris augue neque gravida. Est ullamcorper eget nulla facilisi." 
         },
         {
             img: John2,
             name: "John Smith",
-            designation: "Designation here",
+            designation: "Software Engineer",
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum sed arcu non odio euismod lacinia. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Duis at consectetur lorem donec massa sapien faucibus. Tellus orci ac auctor augue mauris augue neque gravida. Est ullamcorper eget nulla facilisi." 
         }
     ]
